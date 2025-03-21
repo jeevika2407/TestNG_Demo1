@@ -38,7 +38,7 @@ public class Demo5 {
 
 	        driver.findElement(By.xpath("//a[text()='Qafox.com']")).click();
 //	        Assert.assertEquals(driver.getTitle(), "Your Store"); 
-	        softassert.assertEquals(driver.getTitle(), "Your Stor");
+	        softassert.assertEquals(driver.getTitle(), "Your Store");
 	        softassert.assertAll();
 	    }
 
